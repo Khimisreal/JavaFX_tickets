@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.baokhiem.java_baitaplon.FXMLThemChuyenDiController">
+   <children>
+      <TabPane prefHeight="362.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Them Chuyen di">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <VBox layoutX="5.0" layoutY="2.0" prefHeight="362.0" prefWidth="590.0">
+                           <children>
+                              <HBox prefHeight="36.0" prefWidth="590.0">
+                                 <children>
+                                    <Label text="Chọn Chuyến đi:">
+                                       <HBox.margin>
+                                          <Insets right="20.0" />
+                                       </HBox.margin></Label>
+                                    <ComboBox prefWidth="150.0" />
+                                 </children>
+                              </HBox>
+                              <HBox prefHeight="45.0" prefWidth="590.0">
+                                 <children>
+                                    <Label text="Chọn giờ xuất phát: " />
+                                    <DatePicker />
+                                 </children>
+                              </HBox>
+                              <HBox prefHeight="42.0" prefWidth="590.0">
+                                 <children>
+                                    <Label text="Chọn xe bus: ">
+                                       <HBox.margin>
+                                          <Insets right="32.0" />
+                                       </HBox.margin></Label>
+                                    <ComboBox prefWidth="150.0" />
+                                 </children>
+                              </HBox>
+                              <HBox prefHeight="47.0" prefWidth="590.0">
+                                 <children>
+                                    <Button mnemonicParsing="false" text="Button" />
+                                    <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" text="Button" />
+                                 </children>
+                              </HBox>
+                              <TableView prefHeight="178.0" prefWidth="590.0">
+                                <columns>
+                                  <TableColumn prefWidth="75.0" text="C1" />
+                                  <TableColumn prefWidth="75.0" text="C2" />
+                                </columns>
+                                 <VBox.margin>
+                                    <Insets right="15.0" />
+                                 </VBox.margin>
+                              </TableView>
+                           </children>
+                        </VBox>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Account">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <VBox layoutY="10.0" prefHeight="310.0" prefWidth="586.0">
+                           <children>
+                              <HBox prefHeight="48.0" prefWidth="586.0">
+                                 <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Tong tin tai khoan" wrappingWidth="366.93670654296875" />
+                                 </children>
+                              </HBox>
+                              <HBox layoutX="10.0" layoutY="10.0" prefHeight="48.0" prefWidth="586.0">
+                                 <children>
+                                    <Label text="Label" />
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="366.93670654296875" />
+                                 </children>
+                              </HBox>
+                              <HBox layoutX="10.0" layoutY="10.0" prefHeight="48.0" prefWidth="586.0">
+                                 <children>
+                                    <Label text="Label" />
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="366.93670654296875" />
+                                 </children>
+                              </HBox>
+                              <HBox layoutX="10.0" layoutY="58.0" prefHeight="48.0" prefWidth="586.0">
+                                 <children>
+                                    <Button mnemonicParsing="false" text="thoat" />
+                                 </children>
+                              </HBox>
+                           </children>
+                        </VBox>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</VBox>
