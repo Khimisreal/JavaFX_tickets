@@ -30,7 +30,7 @@
                                        <HBox.margin>
                                           <Insets right="20.0" />
                                        </HBox.margin></Label>
-                                    <ComboBox prefWidth="150.0" />
+                                    <ComboBox fx:id="cbChuyendi" prefWidth="150.0" />
                                  </children>
                               </HBox>
                               <HBox prefHeight="45.0" prefWidth="590.0">
@@ -45,16 +45,26 @@
                                        <HBox.margin>
                                           <Insets right="32.0" />
                                        </HBox.margin></Label>
-                                    <ComboBox prefWidth="150.0" />
+                                    <ComboBox fx:id="cbXe" prefWidth="150.0" />
                                  </children>
                               </HBox>
                               <HBox prefHeight="47.0" prefWidth="590.0">
                                  <children>
-                                    <Button mnemonicParsing="false" text="Button" />
-                                    <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" text="Button" />
+                                    <Button mnemonicParsing="false" text="Thêm Chuyến đi">
+                                       <HBox.margin>
+                                          <Insets right="30.0" />
+                                       </HBox.margin></Button>
+                                    <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" text="Xóa Chuyến đi">
+                                       <HBox.margin>
+                                          <Insets right="30.0" />
+                                       </HBox.margin></Button>
+                                    <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" text="Cập nhật chuyến đi" />
                                  </children>
+                                 <VBox.margin>
+                                    <Insets />
+                                 </VBox.margin>
                               </HBox>
-                              <TableView prefHeight="178.0" prefWidth="590.0">
+                              <TableView fx:id="tbCTChuyendi" prefHeight="178.0" prefWidth="590.0">
                                 <columns>
                                   <TableColumn prefWidth="75.0" text="C1" />
                                   <TableColumn prefWidth="75.0" text="C2" />

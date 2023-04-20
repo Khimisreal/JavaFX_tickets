@@ -21,7 +21,16 @@ public class Chuyendi {
         this.tenchuyen = tenchuyen;
         this.gia = gia;
     }
+    public Chuyendi(int idchuyendi, String tenchuyen) {
+        this.idchuyendi = idchuyendi;
+        this.tenchuyen = tenchuyen;
+    }
+    @Override
+    public String toString() {
+        return this.tenchuyen; // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/OverriddenMethodBody
+    }
     
+
     
 
     /**

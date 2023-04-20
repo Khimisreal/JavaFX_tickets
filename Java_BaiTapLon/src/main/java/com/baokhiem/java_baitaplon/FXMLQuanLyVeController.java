@@ -4,9 +4,17 @@
  */
 package com.baokhiem.java_baitaplon;
 
+import com.baokhiem.services.ChuyenDiService;
 import java.net.URL;
+import java.sql.SQLException;
 import java.util.ResourceBundle;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javafx.collections.FXCollections;
+import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.ComboBox;
+
 
 /**
  * FXML Controller class
@@ -14,13 +22,13 @@ import javafx.fxml.Initializable;
  * @author wert
  */
 public class FXMLQuanLyVeController implements Initializable {
-
+    
     /**
      * Initializes the controller class.
      */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        // TODO
-    }    
+        
+    }      
     
 }

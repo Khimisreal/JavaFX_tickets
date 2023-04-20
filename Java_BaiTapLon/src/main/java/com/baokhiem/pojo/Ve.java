@@ -4,7 +4,7 @@
  */
 package com.baokhiem.pojo;
 
-import java.util.Date;
+import java.sql.Date;
 
 /**
  *

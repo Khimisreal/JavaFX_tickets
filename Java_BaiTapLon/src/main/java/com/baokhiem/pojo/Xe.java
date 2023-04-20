@@ -22,6 +22,14 @@ public class Xe {
         this.is_busy = is_busy;
     }
     
+    public Xe(String idxe){
+        this.idxe = idxe;
+    }
+    
+    @Override
+    public String toString() {
+        return this.idxe; // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/OverriddenMethodBody
+    }
     
 
     /**
